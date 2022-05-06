@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+    <div width="400" height="100" style="position:absolute;display:flex;left:0px;top:0px;width:400px;height:100px;background-color:lightblue;flex-direction:row;justify-content:center;">
+      <p>This is a simulation of a starling murmuration.
+       Each triangle represents an individual bird.
+      Flock members follow three rules: separation, alignment, and cohesion.</p>
+      <p>Coming soon: 3D!</p>
+    </div>
+    <div width="400" style="display:flex; width:400px;height:150px;background-color:lightblue;flex-direction:column; justify-content:center;align-items:center;">
+     <h4>Click the screen to direct the flock!</h4>
+      <div style="display:flex;flex-direction:row;">
+      <button onclick="createPredator();"><p>Add a Predator</p></button>
+        <button onclick="removePredator();"><p>Remove a Predator</p></button>
+      </div>
+      <p>View a real starling murmuration below:</p>
+    </div>
+    <img src="1bd906fb-c8b3-49d3-a530-dad7085a0187.webp" width="400">
+  
+
+</body></html>
