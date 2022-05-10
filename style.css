@@ -1,13 +1,10 @@
 html, body {
+  margin:auto;
   padding: 0;
 }
 html {
-  display:table;
-  margin:auto;
 }
 body {
-  display: table-cell;
-  vertical-align: middle;
 }
 canvas {
   display: block;
